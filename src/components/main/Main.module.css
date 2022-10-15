@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    padding: 2px;
+}   
+
+.item1 {
+    /* flex: 5; */
+}  
+.item2 {
+    flex: 1;
+}

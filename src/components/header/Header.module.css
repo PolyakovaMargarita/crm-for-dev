@@ -1,0 +1,12 @@
+.header {
+    height: 100px;
+}   
+.items {
+    padding: 20px;
+} 
+.item {
+    padding: 5px;
+    border: 2px solid rgb(7, 77, 107);
+    border-radius: 30px;
+    background-color: rgb(241, 236, 245);
+} 

@@ -1,10 +1,11 @@
 .content {
     display: flex;
-    padding: 2px;
+    justify-content: space-between;
+    margin: 2px;
 }   
 
 .item1 {
-    /* flex: 5; */
+    width: 70%;
 }  
 .item2 {
     flex: 1;

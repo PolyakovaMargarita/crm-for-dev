@@ -6,7 +6,11 @@
 } 
 .item {
     padding: 5px;
-    border: 2px solid rgb(7, 77, 107);
-    border-radius: 30px;
-    background-color: rgb(241, 236, 245);
+    /* border: 2px solid rgb(7, 77, 107); */
+    border-radius: 8px;
+    background-color: rgb(50, 28, 124);
+    box-shadow: 5px 5px 10px 0px rgba(62, 62, 126, 0.8);
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+    color: rgb(234, 226, 226);
+    font-family: Roboto;
 } 

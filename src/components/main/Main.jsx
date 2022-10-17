@@ -12,7 +12,7 @@ const Main = () => (
       <Important />
     </div>
   </div>
-
+ 
 );
 
 export default Main;

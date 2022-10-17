@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 12%;
+    justify-content: space-around;
+    margin: 10px 10px 0 0;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.icon:hover {
+    background-color: rgb(229, 238, 235);
+    border: 2px solid rgb(194, 179, 179);
+    border-radius: 5px;
+}

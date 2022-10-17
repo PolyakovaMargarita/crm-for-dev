@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 131px;
+    flex-direction: column;
+    /* background-color: rgb(251, 231, 231); */
+}
+.header {
+    font-size: 18px;
+}
+.seeAll {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.items {
+    /* margin-top: 5px; */
+}

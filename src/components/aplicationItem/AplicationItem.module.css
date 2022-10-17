@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* background-color: rgb(216, 60, 151); */
+    height: 85px;
+    margin-left: 15px;
+}   
+.item {
+
+} 
+.textH {
+    font-size: 24px;
+}

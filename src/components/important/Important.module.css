@@ -1,7 +1,45 @@
 .container {
     display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 15px;
+}   
+.important {
+    display: flex;
+    flex-direction: column;
+}
+.imortantText {
+    font-size: 18px;
+}
+.imortantSeeAll {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: rgba(152, 152, 152, 1);
+    margin-top: 2px;
+}
+.importantBody {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(25, 223, 88);
-    padding: 5px;
-}   
+    margin-top: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 3px rgba(174, 162, 162, 0.8);
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+    height: 87px;
+    background-color: rgb(60, 0, 255);
+}
+.importantBody:hover {
+    border-radius: 8px;
+    border: 2px solid rgb(187, 180, 180);
+    /* box-shadow: 0px 0px 0px 0px rgba(174, 162, 162, 0.8);
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25)); */
+    background-color: rgb(33, 7, 161);
+}
+.items {
+    margin-top: 25px;
+}
+.see {
+    margin-top: 20px;
+}

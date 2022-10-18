@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85px;
+    margin: 0 0 0 20px;
+    width: 100%;
+    color: #fff;
+}
+.num {
+    font-size: 32px;
+}
+.text {
+    font-size: 13px;
+}

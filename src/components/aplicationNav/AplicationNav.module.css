@@ -11,6 +11,8 @@
 .seeAll {
     display: flex;
     flex-direction: row-reverse;
+    font-size: 10px;
+    color: rgba(152, 152, 152, 1);
 }
 .items {
     /* margin-top: 5px; */

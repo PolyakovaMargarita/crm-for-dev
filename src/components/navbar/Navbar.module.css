@@ -20,8 +20,9 @@
     color: rgb(234, 226, 226);
 }
 .nav_items {
-    padding-top: 300px;
-}
+    padding-top: 350px;
+    position: sticky;
+    top: 20px;}
 @media screen and (max-width: 1080px) {
     .nav_items {
         padding-top: 250px;
@@ -56,6 +57,9 @@
 .icon {
     width: 25px;
     height: 25px;
-    /* border: 2px solid #fff; */
-    border-radius: 50px;
+}
+.icon:hover {
+    border: 2px solid rgb(55, 141, 167);
+    background-color: rgb(70, 75, 255);
+    border-radius: 5px;
 }
